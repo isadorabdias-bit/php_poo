@@ -35,11 +35,10 @@
                 return number_format($this->peso / ($this->altura * $this->altura), 2, ',', '.');
             }
         }
+        }
 
         $pessoa = new Pessoa($peso, $altura);
         echo "<h2>O IMC calculado é: " . $pessoa->calcularIMC() . "</h2>";
-    }
     ?>
-    
 </body>
 </html>
